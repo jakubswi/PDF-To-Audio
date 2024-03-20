@@ -74,7 +74,7 @@ result = operation.result(timeout=300)
 storage_client = storage.Client()
 bucket = storage_client.bucket(bucket_name)
 blob = bucket.blob(file_name_gcloud)
-blob.download_to_filename("Output/output.wav")
+blob.download_to_filename(f"Output/{file_name_gcloud}")
 
 # Delete the file from the bucket after download
 blob.delete()
