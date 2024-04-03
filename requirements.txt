@@ -1,0 +1,4 @@
+Flask==2.3.2
+Bootstrap_Flask==2.2.0
+gunicorn==21.2.0
+resend~=0.7.2
